@@ -18,7 +18,6 @@ import {logEvent} from '@utils/analytics';
 
 import SpinnerModal from '@components/SpinnerModal/SpinnerModal';
 import SpyIcon from '@components/SpyIcon/SpyIcon';
-import {AdBanner} from '@components/AdBanner/AdBanner';
 
 const LoadableSettings = lazy(() => import('@containers/Settings/Settings'));
 const LoadableGame = lazy(() => import('@containers/Game/Game'));
