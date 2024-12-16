@@ -101,7 +101,6 @@ export const App = () => {
               </Input>
             </Col>
           </Row>
-          <AdBanner />
           <Suspense fallback={<SpinnerModal />}>
             <Switch>
               <Route exact path="/settings" component={LoadableSettings} />
